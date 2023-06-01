@@ -1,15 +1,42 @@
 #root {
-  background-color: gray;
-  max-width: 1280px;
-  /* margin: 0 auto; */
-  padding: 2rem;
-  /* text-align: center; */
+  width: 100%;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  color: black;
+  text-align: center;
 }
 
 body{
-  background-color: gray;
+  background-color: white;
 }
 
+.main_box{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.logo{
+  width: 50%;
+}
+.form{
+  margin: 30px 40px;
+  width: 50%;
+  text-align: left;
+  border-left: 1px solid black;
+  padding-left: 6rem;
+}
+label{
+  color: black;
+  font-weight: bold;
+  display: block;
+
+}
+.form > div{
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
 /* .logo {
   height: 6em;
   padding: 1.5em;
