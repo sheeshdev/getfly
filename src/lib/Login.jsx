@@ -28,21 +28,20 @@ const Login = () => {
         <img src={logo}></img>
       </div>
       <div className='form'>
-
         <div>
           <h1>Login</h1>
-          <p>welcome to .Please login to your account</p>
+          <p>Welcome to productname. Please login to your account</p>
         </div>
         <form>
-        
+
           <div>
             <label>College id</label>
-            <TextField id="outlined-basic" label="id@pvppcoe.ac.in" variant="outlined" />
+            <TextField sx={{ py: '4px', width: '100%' }} id="outlined-basic" label="id@pvppcoe.ac.in" variant="outlined" />
           </div>
 
           <div>
             <label>Password</label>
-            <FormControl  variant="outlined">
+            <FormControl sx={{ py: '4px', width: '100%' }} variant="outlined">
               <InputLabel htmlFor="outlined-adornment-password">Password</InputLabel>
               <OutlinedInput
                 id="outlined-adornment-password"
@@ -63,9 +62,14 @@ const Login = () => {
               />
             </FormControl>
           </div>
+          <div className='btn_main' >
+            <button type="button">Login</button>
+          </div>
         </form>
+        <div className='section_footer'>
+          <p>www.getflytechnologies.com</p>
+        </div>
       </div>
-
     </div>
   )
 }
